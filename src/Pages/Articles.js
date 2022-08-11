@@ -73,7 +73,7 @@ if(article_data){
     <h1 >{article_data.data.attributes.Title}</h1><br></br>
 
     <br></br>
-    <img src={"https://dry-garden-75327.herokuapp.com"+article_data.data.attributes.article_image.data.attributes.url}></img>
+    <img src={"https://dry-garden-75327.herokuapp.com"+article_data.data.attributes.article_image.data.attributes.url} style={{width:"800px",height:"400px"}}></img>
     <br></br>
     <br></br>
     <p style={{whiteSpace:"pre-line "}}>{article_data.data.attributes.Body}</p>
