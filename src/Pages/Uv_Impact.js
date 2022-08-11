@@ -20,16 +20,7 @@ import { bounce } from 'react-animations';
 import axios from "axios";
 import Cookies from 'universal-cookie';
 import Footer from "../Components/Footer";
-import {
-    MDBNavbar,
-    MDBNavbarBrand,
-    MDBNavbarNav,
-    MDBNavItem,
-    MDBNavLink,
-    MDBNavbarToggler,
-    MDBCollapse,
-    MDBContainer
-  } from 'mdbreact';
+
 
 function Uv_Impact(){
 
